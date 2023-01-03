@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(232, 236, 243);
+    font-family: roboto;
+}
+
+.container{
+    width: 45vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 3rem auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2)0px 5px 15px;
+}
+
+.container h1{
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.nav-brand{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container label{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-top: 3rem;
+
+}
+
+.input{
+    width: 200px;
+    height: 30px;
+    font-size: 1.1rem;
+    margin: 5px 0 15px 0;
+}
+
+#checkPallindrome{
+    margin-top: 18px;
+    font-size: 1.3rem;
+    padding: 7px 18px;
+    border: none;
+    background-color:cornflowerblue;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#checkPallindrome:hover{
+    color: cornflowerblue;
+    background-color: #fff;
+    border: 2px solid cornflowerblue ;
+}
+
+.footer {
+  background-color:cornflowerblue;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footer .link {
+  color: white;
+}
+
+.footer-header{
+  padding-bottom: 1rem;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.social-media{
+  font-size: 1.5rem;
+}
+
+.social-links{
+  display: flex;
+  flex-direction: row;
+}
+
+#output{
+  padding-top: 20px;
+  font-style: roboto;
+}
+
+.list-item-inline a{
+  text-decoration: none;
+  color: black;
+}
